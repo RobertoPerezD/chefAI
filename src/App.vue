@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { GoogleGenerativeAI } from '@google/generative-ai'
-import { ChefHat, Send, Loader2, Sparkles, Clock, BarChart3, ChevronRight } from 'lucide-vue-next'
+import { ChefHat, Loader2, Sparkles, Clock, BarChart3, ChevronRight } from 'lucide-vue-next'
 
 // --- State ---
 const userInput = ref('')
